@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARABIC KEYBOARD</title>
+    <link rel="shortcut icon" href="">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap'); </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="logo">ARABIC KEYBOARD</h1>
+        </header>
+        <div class="screen">
+            <div class="write-area">
+                <textarea id="mytextarea" placeholder="أدخل نصك هنا..."></textarea>
+            </div>
+            <div class="options">
+                <i class="fa-regular fa-copy" id="copy-btn"></i>
+                <i class="fa-solid fa-plus" id="incr-btn"></i>
+                <i class="fa-solid fa-minus" id="decr-btn"></i>
+                <i class="fa-solid fa-floppy-disk" id="save-btn"></i>
+            </div>
+            <div class="keyboard">
+                <div class="buttons">
+                    <button class="btn" onclick="addToText('ض')">ض</button>
+                    <button class="btn" onclick="addToText('ص')">ص</button>
+                    <button class="btn" onclick="addToText('ش')">ش</button>
+                    <button class="btn" onclick="addToText('س')">س</button>
+                    <button class="btn" onclick="addToText('ز')">ز</button>
+                    <button class="btn" onclick="addToText('ر')">ر</button>
+                    <button class="btn" onclick="addToText('ذ')">ذ</button>
+                    <button class="btn" onclick="addToText('د')">د</button>
+                    <button class="btn" onclick="addToText('خ')">خ</button>
+                    <button class="btn" onclick="addToText('ح')">ح</button>
+                    <button class="btn" onclick="addToText('ج')">ج</button>
+                    <button class="btn" onclick="addToText('ث')">ث</button>
+                    <button class="btn" onclick="addToText('ت')">ت</button>
+                    <button class="btn" onclick="addToText('ب')">ب</button>
+                    <button class="btn" onclick="addToText('ا')">ا</button>
+                </div>
+                <div class="buttons">
+                    <button class="btn" onclick="addToText('ء')">ء</button>
+                    <button class="btn" onclick="addToText('ي')">ي</button>
+                    <button class="btn" onclick="addToText('و')">و</button>
+                    <button class="btn" onclick="addToText('ه')">ه</button>
+                    <button class="btn" onclick="addToText('ن')">ن</button>
+                    <button class="btn" onclick="addToText('م')">م</button>
+                    <button class="btn" onclick="addToText('ل')">ل</button>
+                    <button class="btn" onclick="addToText('ك')">ك</button>
+                    <button class="btn" onclick="addToText('ق')">ق</button>
+                    <button class="btn" onclick="addToText('ف')">ف</button>
+                    <button class="btn" onclick="addToText('غ')">غ</button>
+                    <button class="btn" onclick="addToText('ع')">ع</button>
+                    <button class="btn" onclick="addToText('ظ')">ظ</button>
+                    <button class="btn" onclick="addToText('ط')">ط</button>
+                </div>
+                <div class="buttons">
+                    <button class="btn" onclick="addToText('؟')">؟</button>
+                    <button class="btn" onclick="addToText('؛')">؛</button>
+                    <button class="btn" onclick="addToText('،')">،</button>
+                    <button class="btn" onclick="addToText('.')">.</button>
+                    <button class="btn" onclick="addToText('-')">-</button>
+                    <button class="btn" onclick="addToText('ى')">ى</button>
+                    <button class="btn" onclick="addToText('ئ')">ئ</button>
+                    <button class="btn" onclick="addToText('ؤ')">ؤ</button>
+                    <button class="btn" onclick="addToText('ة')">ة</button>
+                    <button class="btn" onclick="addToText('آ')">آ</button>
+                    <button class="btn" onclick="addToText('إ')">إ</button>
+                    <button class="btn" onclick="addToText('أ')">أ</button>
+                    <i class="fa-solid fa-delete-left" id="delete-btn"></i>
+                </div>
+                <div class="buttons">
+                    <button class="btn" id="youtube-btn">youtube</button>
+                    <button class="btn" id="space-btn" onclick="addToText(' ')">space</button>
+                    <button class="btn" id="google-btn">google</button>
+                </div>
+                <div class="buttons">
+                    <button class="btn" onclick="addToText('1')">1</button>
+                    <button class="btn" onclick="addToText('2')">2</button>
+                    <button class="btn" onclick="addToText('3')">3</button>
+                    <button class="btn" onclick="addToText('4')">4</button>
+                    <button class="btn" onclick="addToText('5')">5</button>
+                    <button class="btn" onclick="addToText('6')">6</button>
+                    <button class="btn" onclick="addToText('7')">7</button>
+                    <button class="btn" onclick="addToText('8')">8</button>
+                    <button class="btn" onclick="addToText('9')">9</button>
+                    <button class="btn" onclick="addToText('.')">.</button>
+                    <button class="btn" onclick="addToText('+')">+</button>
+                    <button class="btn" onclick="addToText('-')">-</button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- this library for save a file -->
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js" integrity="sha512-csNcFYJniKjJxRWRV1R7fvnXrycHP6qDR21mgz1ZP55xY5d+aHLfo9/FcGDQLfn2IfngbAHd8LdfsagcCqgTcQ==" crossorigin = "anonymous" referrerpolicy = "no-referrer"> </script>
+    <script src="script.js"></script>
+</body>
+</html>
