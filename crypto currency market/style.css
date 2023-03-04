@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: rgb(6, 169, 152);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+main h1 {
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin: 50px 20px 30px;
+    color: #fff;
+}
+
+.search-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 20px;
+}
+.search-icon {
+    width: 50px;
+    height: 45px;
+    border-radius: 10px 0 0 10px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-icon i {
+    color: black;
+    font-size: 20px;
+}
+#search-input {
+    width: 500px;
+    height: 45px;
+    border: 0;
+    outline: 0;
+    border-radius: 0 10px 10px 0;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 10px 0 3px;
+}
+
+.crypto-currency-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.crypto-currency-box .crypto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 900px;
+    height: 50px;
+    padding: 5px;
+    background: #f0e9e9;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin: 5px;
+    transition: all .4s ease;
+}
+.crypto:hover {
+    box-shadow: 0 0 5px 5px #0000006a;
+}
+.crypto div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.crypto .rank {
+    font-size: 20px;
+    font-weight: 500;
+}
+.crypto img {
+    width: 40px;
+    height: 40px;
+}
+.crypto h2 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.crypto h2 span{
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.crypto .price, .crypto .change_percentage_24h {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.red {
+    color: rgb(246, 37, 37);
+}
+.green {
+    color: rgb(18, 159, 18);
+}
+
+@media screen and (min-width: 1100px) {
+    .crypto {
+        width: 700px;
+    }
+}
