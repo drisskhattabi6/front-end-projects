@@ -4,4 +4,4 @@
 
 |#| Projects Code Source | Live Demo |
 |:-:|:--------------------------:|:-----------:|
-|1| Crypto Currency Market | Live Demo |
+|1| [Crypto Currency Market](https://drisskhattabi6.github.io/front-end-projects/crypto%20currency%20market/) | [Live Demo](#) |
