@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik Iso', cursive;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(20, 164, 164);
+}
+.header {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 800;
+    margin: 30px;
+    color: #fff;
+    font-family: 'Rubik Iso', cursive;
+}
+
+.game-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+
+.option {
+    width: 100px;
+    height: 100px;
+    margin: 10px 15px;
+    position: relative;
+    border-radius: 50%;
+    border: 5px solid #000000;
+    cursor: pointer;
+    transition: all 1s ease;
+    z-index: 0;
+}
+
+.option img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.active {
+    pointer-events: none;
+}
+
+.selected .roadblock{
+    display: none;
+}
+
+.roadblock {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    background-color: #fff;
+    border-radius: 50%;
+    z-index: 1;
+    border: 5px solid #000;
+    transition: all .4s ease;
+}
+
