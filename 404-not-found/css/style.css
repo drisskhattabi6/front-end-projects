@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+body {
+    position: relative;
+    min-height: 100vh;
+    height: 100%;
+}
+
 .container {
     display: flex;
     align-items: center;
@@ -70,13 +76,24 @@ button {
     cursor: pointer;
 }
 
+.programmer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    color: #BDBDBD;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
 @media screen and (max-width : 700px) {
     .container {
         flex-direction: column;
+        margin-bottom: 50px;
     }
 
     img , .msg {
-        width: 95%;
+        width: 90%;
         margin: 10px;
     }
 
@@ -89,13 +106,9 @@ button {
         font-size: 18px;
         line-height: 27px;
     }
+
+    .programmer {
+        position: relative;
+    }
 }
 
-.programmer {
-    position: absolute;
-    bottom: 0;
-    text-align: center;
-    width: 100%;
-    color: #BDBDBD;
-    font-size: 14px;
-}
