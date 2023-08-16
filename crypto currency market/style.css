@@ -1,3 +1,55 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+/* table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} */
+
+/*-------------------------------------------*/
+
+
 * {
     margin: 0;
     padding: 0;
@@ -57,45 +109,36 @@ main h1 {
 }
 
 .crypto-currency-box {
-    display: flex;
-    flex-direction: column;
     margin-bottom: 20px;
 }
 .crypto-currency-box .crypto {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 900px;
-    height: 50px;
-    padding: 5px;
+    max-width: 900px;
+    min-height: 50px;
     background: #f0e9e9;
-    border-radius: 15px;
-    padding: 10px 20px;
-    margin: 5px;
     transition: all .4s ease;
 }
 .crypto:hover {
     box-shadow: 0 0 5px 5px #0000006a;
 }
-.crypto div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+tr td {
+    padding: 10px 20px;
 }
+
 .crypto .rank {
     font-size: 20px;
     font-weight: 500;
 }
 .crypto img {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
-.crypto h2 {
+.crypto td h2 {
     font-size: 20px;
     font-weight: 600;
     text-transform: uppercase;
 }
-.crypto h2 span{
+.crypto td span{
     font-weight: 400;
     font-size: 18px;
     text-transform: capitalize;
@@ -112,8 +155,88 @@ main h1 {
     color: rgb(18, 159, 18);
 }
 
-@media screen and (min-width: 1100px) {
-    .crypto {
-        width: 700px;
+
+@media screen and (max-width: 1100px) {
+    .crypto td {
+        padding: 5px 7px;
+    }
+}
+
+
+@media screen and (max-width: 750px) {
+    .crypto td {
+        padding: 5px;
+    }
+    .crypto .rank {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .crypto img {
+        width: 25px;
+        height: 25px;
+    }
+    .crypto td h2 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .crypto td span{
+        font-size: 12px;
+    }
+    .crypto .price, .crypto .change_percentage_24h {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    main h1 {
+        font-size: 25px;
+        font-weight: 600;
+        width: 100%;
+        text-align: center;
+    }
+
+    #search-input {
+        width: 350px;
+        height: 40px;
+    }
+    .search-icon {
+        height: 40px;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .crypto td {
+        padding: 0;
+    }
+    .crypto .rank {
+        font-size: 12px;
+    }
+    .crypto img {
+        width: 20px;
+        height: 20px;
+    }
+    .crypto td h2 {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .crypto td span{
+        font-size: 10px;
+    }
+    .crypto .price, .crypto .change_percentage_24h {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    main h1 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    #search-input {
+        width: 300px;
+        height: 40px;
+    }
+    .search-icon {
+        height: 40px;
     }
 }
