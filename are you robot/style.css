@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+body {
+    background-color: rgb(35, 35, 37);
+    text-align: center;
+    margin: 10px;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255, 166, 0);
+    padding: 0;
+    margin: 20px 0;
+    text-shadow: 5px 5px 8px #000;
+}
+
+#wanted_color {
+    background-color: black;
+    padding: 5px 8px;
+    text-shadow: 5px 5px 5px rgb(222, 22, 22);
+}
+
+#checkbox {
+    margin: 0 10px;
+}
+
+#btn {
+    margin: 10px;
+    padding: 5px 8px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.btn_not_active {
+    background-color: #fff;
+    color: black;
+    pointer-events: none;
+    user-select: none;
+}
+
+.btn_active {
+    background-color: rgb(25, 149, 3);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    pointer-events: all;
+}
+
+#choose {
+    width: 350px;
+    height: 300px;
+    margin: 15px auto;
+}
+#choose:hover {
+    box-shadow: 5px 5px 12px rgb(187, 39, 39),
+     -5px -5px 12px rgb(7, 111, 237);
+}
+
+.blocks {
+    display: flex;
+    position: relative;
+}
+
+.colors{
+    width: 110px;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(15, 15, 15);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    text-shadow: 4px 4px 4px #000;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all .4s ease;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+.colors:hover{
+    transform: scale(1.1);
+}
