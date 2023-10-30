@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --color1: #222222;
+    --color2: #22A39F;
+    --color3: #F3EFE0;
+    --color4: #535353;
+}
+
+.btn, i {
+    font-size: 20px;
+    background: var(--color1);
+    color: var(--color3);
+    font-weight: 600;
+    cursor: pointer;
+    padding: 5px 15px;
+    transition: all .3s ease;
+    border: 1px solid var(--color3);
+    border-radius: 5px;
+    outline: none;
+}
+
+.btn:hover, i:hover {
+    background: var(--color4);
+}
+
+/*************************************************/
+body {
+    background-color: var(--color1);
+}
+
+.container {
+    max-width: 85vw;
+    margin: 0 auto;
+    padding: 0 15px;
+    background-color: var(--color1);
+    color: var(--color3);
+    box-shadow: 0 -10px 20px var(--color1),
+                0 10px 20px var(--color1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    width: 100%;
+    padding: 15px;
+}
+
+header #logo {
+    width: 100%;
+    text-align: center;
+}
+/*********************************************/
+
+.screen {
+    width: 91%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--color1);
+    padding-bottom: 30px;
+    border: 3px solid var(--color3);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.screen .write-area {
+    width: 98%;
+    padding-top: 10px;
+}
+
+.screen .write-area textarea{
+    /*border: 5px solid var(--color2);*/
+    border-radius: 10px;
+    background-color: var(--color3);
+    color: var(--color1);
+    font-size: 22px;
+    font-weight: 600;
+    padding: 10px;
+    outline: none;
+    resize: none;
+    width: 100%;
+    height: 250px;
+    direction: rtl;
+}
+
+.screen .options {
+    padding: 10px;
+
+}
+.screen .options i {
+    margin: 0 10px;
+}
+
+.screen .keyboard {
+   background: var(--color3);
+   width: 95%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 10px 20px;
+   border-radius: 10px;
+}
+
+.screen .keyboard .buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.buttons button {
+    margin: 0 5px;
+    padding: 5px 17px;
+}
+
+#youtube-btn {
+    background: rgb(255, 0, 0);
+    padding: 10px 20px;
+}
+#google-btn {
+    background: rgb(62, 113, 241);
+    padding: 10px 20px;
+}
+#space-btn {
+    background: rgb(59, 58, 58);
+    padding: 10px 180px;
+}
+#youtube-btn:hover {
+    background: rgb(241, 60, 60);
+}
+#google-btn:hover {
+    background: rgb(111, 149, 244);
+}
+#space-btn:hover {
+    background: rgb(92, 91, 91);
+}
+
+/*********************************************/
+
+@media screen and (max-width: 1250px) {
+    .screen .write-area {
+        padding: 10px 10px 0 10px;
+    }
+    .buttons button {
+        padding: 2px 12px;
+    }
+    
+    #youtube-btn,#google-btn {
+        padding: 7px 15px;
+    }
+    #space-btn {
+        padding: 7px 150px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .buttons button {
+        padding: 2px 7px;
+    }
+    #youtube-btn,#google-btn {
+        padding: 5px 10px;
+    }
+    #space-btn {
+        padding: 5px 100px;
+    }
+}
+@media screen and (max-width: 680px) {
+    .buttons button {
+        margin: 0 3px;
+        padding: 2px 5px;
+    }
+    #youtube-btn,#google-btn {
+        padding: 5px 5px;
+    }
+    #space-btn {
+        padding: 5px 70px;
+    }
+}
+@media screen and (max-width: 830px) {
+    .container {
+        max-width: 100%;
+        width: 100%;
+        margin: 0;
+    }
+    .screen {
+        width: 98%;
+    }
+    .screen .keyboard {
+        
+        padding: 5px;
+    }
+    .screen .keyboard .buttons {
+        flex-wrap: wrap;
+    }
+}

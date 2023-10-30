@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARABIC KEYBOARD</title>
+    <link rel="shortcut icon" href="">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap'); </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="logo">ARABIC KEYBOARD</h1>
+        </header>
+        <div class="screen">
+            <div class="write-area">
+                <textarea id="mytextarea" placeholder="أدخل نصك هنا..."></textarea>
+            </div>
+            <div class="options">
+                <i class="fa-regular fa-copy" id="copy-btn"></i>
+                <i class="fa-solid fa-plus" id="incr-btn"></i>
+                <i class="fa-solid fa-minus" id="decr-btn"></i>
+                <i class="fa-solid fa-floppy-disk" id="save-btn"></i>
+            </div>
+            <div class="keyboard">
+                <div class="buttons">
+                    <button class="btn" onclick="insertTextAtCursor('ض')">ض</button>
+                    <button class="btn" onclick="insertTextAtCursor('ص')">ص</button>
+                    <button class="btn" onclick="insertTextAtCursor('ش')">ش</button>
+                    <button class="btn" onclick="insertTextAtCursor('س')">س</button>
+                    <button class="btn" onclick="insertTextAtCursor('ز')">ز</button>
+                    <button class="btn" onclick="insertTextAtCursor('ر')">ر</button>
+                    <button class="btn" onclick="insertTextAtCursor('ذ')">ذ</button>
+                    <button class="btn" onclick="insertTextAtCursor('د')">د</button>
+                    <button class="btn" onclick="insertTextAtCursor('خ')">خ</button>
+                    <button class="btn" onclick="insertTextAtCursor('ح')">ح</button>
+                    <button class="btn" onclick="insertTextAtCursor('ج')">ج</button>
+                    <button class="btn" onclick="insertTextAtCursor('ث')">ث</button>
+                    <button class="btn" onclick="insertTextAtCursor('ت')">ت</button>
+                    <button class="btn" onclick="insertTextAtCursor('ب')">ب</button>
+                    <button class="btn" onclick="insertTextAtCursor('ا')">ا</button>
+                </div>
+                <div class="buttons">
+                    <button class="btn" onclick="insertTextAtCursor('ء')">ء</button>
+                    <button class="btn" onclick="insertTextAtCursor('ي')">ي</button>
+                    <button class="btn" onclick="insertTextAtCursor('و')">و</button>
+                    <button class="btn" onclick="insertTextAtCursor('ه')">ه</button>
+                    <button class="btn" onclick="insertTextAtCursor('ن')">ن</button>
+                    <button class="btn" onclick="insertTextAtCursor('م')">م</button>
+                    <button class="btn" onclick="insertTextAtCursor('ل')">ل</button>
+                    <button class="btn" onclick="insertTextAtCursor('ك')">ك</button>
+                    <button class="btn" onclick="insertTextAtCursor('ق')">ق</button>
+                    <button class="btn" onclick="insertTextAtCursor('ف')">ف</button>
+                    <button class="btn" onclick="insertTextAtCursor('غ')">غ</button>
+                    <button class="btn" onclick="insertTextAtCursor('ع')">ع</button>
+                    <button class="btn" onclick="insertTextAtCursor('ظ')">ظ</button>
+                    <button class="btn" onclick="insertTextAtCursor('ط')">ط</button>
+                </div>
+                <div class="buttons">
+                    <button class="btn" onclick="insertTextAtCursor('؟')">؟</button>
+                    <button class="btn" onclick="insertTextAtCursor('؛')">؛</button>
+                    <button class="btn" onclick="insertTextAtCursor('،')">،</button>
+                    <button class="btn" onclick="insertTextAtCursor('.')">.</button>
+                    <button class="btn" onclick="insertTextAtCursor('-')">-</button>
+                    <button class="btn" onclick="insertTextAtCursor('ى')">ى</button>
+                    <button class="btn" onclick="insertTextAtCursor('ئ')">ئ</button>
+                    <button class="btn" onclick="insertTextAtCursor('ؤ')">ؤ</button>
+                    <button class="btn" onclick="insertTextAtCursor('ة')">ة</button>
+                    <button class="btn" onclick="insertTextAtCursor('آ')">آ</button>
+                    <button class="btn" onclick="insertTextAtCursor('إ')">إ</button>
+                    <button class="btn" onclick="insertTextAtCursor('أ')">أ</button>
+                    <i class="fa-solid fa-delete-left" id="delete-btn"></i>
+                </div>
+                <div class="buttons">
+                    <button class="btn" id="youtube-btn">youtube</button>
+                    <button class="btn" id="space-btn" onclick="insertTextAtCursor(' ')">space</button>
+                    <button class="btn" id="google-btn">google</button>
+                </div>
+                <div class="buttons">
+                    <button class="btn" onclick="insertTextAtCursor('1')">1</button>
+                    <button class="btn" onclick="insertTextAtCursor('2')">2</button>
+                    <button class="btn" onclick="insertTextAtCursor('3')">3</button>
+                    <button class="btn" onclick="insertTextAtCursor('4')">4</button>
+                    <button class="btn" onclick="insertTextAtCursor('5')">5</button>
+                    <button class="btn" onclick="insertTextAtCursor('6')">6</button>
+                    <button class="btn" onclick="insertTextAtCursor('7')">7</button>
+                    <button class="btn" onclick="insertTextAtCursor('8')">8</button>
+                    <button class="btn" onclick="insertTextAtCursor('9')">9</button>
+                    <button class="btn" onclick="insertTextAtCursor('.')">.</button>
+                    <button class="btn" onclick="insertTextAtCursor('+')">+</button>
+                    <button class="btn" onclick="insertTextAtCursor('-')">-</button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- this library for save a file -->
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js" integrity="sha512-csNcFYJniKjJxRWRV1R7fvnXrycHP6qDR21mgz1ZP55xY5d+aHLfo9/FcGDQLfn2IfngbAHd8LdfsagcCqgTcQ==" crossorigin = "anonymous" referrerpolicy = "no-referrer"> </script>
+    <script src="script.js"></script>
+</body>
+</html>
