@@ -11,5 +11,5 @@
 | 05 | [Are You Robot](https://github.com/drisskhattabi6/front-end-projects/tree/main/are%20you%20robot) | HTML + CSS + JS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/are%20you%20robot/) | inspired |
 | 06 | [StopWatch App](https://github.com/drisskhattabi6/front-end-projects/tree/main/StopWatch%20App) | HTML + CSS + JS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/StopWatch%20App/) | inspired |
 | 07 | [Movie App](https://github.com/drisskhattabi6/front-end-projects/tree/main/Movie%20App) | HTML + CSS + JS (API) | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/Movie%20App/) | inspired |
-| 08 | [Note App](https://github.com/drisskhattabi6/front-end-projects/tree/main/Note%20App) | HTML + CSS + JS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/Note%20App/) | inspired |
+| 08 | [Note App](https://github.com/drisskhattabi6/front-end-projects/tree/main/Notes%20App) | HTML + CSS + JS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/Notes%20App/) | inspired |
 | 09 | [404 not found page](https://github.com/drisskhattabi6/front-end-projects/tree/main/404-not-found) | HTML + CSS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/404-not-found/) | challenge |
