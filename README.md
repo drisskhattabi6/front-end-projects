@@ -12,4 +12,5 @@
 | 06 | [StopWatch App](https://github.com/drisskhattabi6/front-end-projects/tree/main/StopWatch%20App) | HTML + CSS + JS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/StopWatch%20App/) | inspired |
 | 07 | [Movie App](https://github.com/drisskhattabi6/front-end-projects/tree/main/Movie%20App) | HTML + CSS + JS (API) | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/Movie%20App/) | inspired |
 | 08 | [Notes App](https://github.com/drisskhattabi6/front-end-projects/tree/main/Notes%20App) | HTML + CSS + JS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/Notes%20App/) |  my Project  |
-| 09 | [404 not found page](https://github.com/drisskhattabi6/front-end-projects/tree/main/404-not-found) | HTML + CSS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/404-not-found/) | challenge |
+| 09 | [Password Generator](https://github.com/drisskhattabi6/front-end-projects/tree/main/Password%20Generator) | HTML + CSS + JS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/Password%20Generator/) | inspired |
+| 10 | [404 not found page](https://github.com/drisskhattabi6/front-end-projects/tree/main/404-not-found) | HTML + CSS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/404-not-found/) | challenge |
