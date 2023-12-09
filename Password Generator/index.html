@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+      </style>
+</head>
+<body>
+    <h1>Password Generator</h1>
+    <div class="input-box">
+        <input type="text" id="password" placeholder="Password..." readonly>
+        <button id="copy">
+            <i class="fa-regular fa-copy"></i>
+        </button>
+    </div>
+    <div class="options-box">
+        <div class="range-box">
+            <div class="header">
+                <label for="">Character Length : </label>
+                <span id="length-value">12</span>
+            </div>
+            <input type="range" id="range-input" value="12" min="5" max="20">
+        </div>
+        <div class="checkbox">
+            <input type="checkbox" id="checkbox1" checked>
+            <label for="checkbox1">Include Uppercase Character</label>
+        </div>
+        <div class="checkbox">
+            <input type="checkbox" id="checkbox2" checked>
+            <label for="checkbox2">Include Lowercase Character</label>
+        </div>
+        <div class="checkbox">
+            <input type="checkbox" id="checkbox3" checked>
+            <label for="checkbox3">Include Numbers</label>
+        </div>
+        <div class="checkbox">
+            <input type="checkbox" id="checkbox4">
+            <label for="checkbox4">Include Symboles</label>
+        </div>
+        <button id="generate">Generate <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
