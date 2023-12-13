@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #232323;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+main h1 {
+    margin: 20px;
+}
+
+#search-input {
+    width: 50%;
+    padding: 15px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 30px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.profile, #error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(69, 69, 69);
+    margin: 20px;
+    width: 65%;
+    max-width: 800px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px 3px rgba(255, 255, 255, 0.205),
+                -2px -2px 3px 3px rgba(255, 255, 255, 0.205);
+    display: none;
+}
+
+.profile .img {
+    width: 30%;
+    padding: 10px;
+}
+
+.img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #ff8308;
+}
+
+.profile .info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 20px;
+}
+ 
+.info h1{
+    padding: 20px 0;
+}
+.info p:first-of-type{
+    padding: 20px 0;
+    font-size: 16px;
+    line-height: 22px;
+}
+.info .statics{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px 0;
+}
+.statics li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+.statics li p:nth-child(2){
+    font-weight: 900;
+    text-decoration: underline;
+}
+.statics li .result{
+    padding: 0 10px;
+}
+
+#hachtage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+#hachtage .result2 {
+    padding: 5px 10px;
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.205),
+                -2px -2px 3px 3px rgba(0, 0, 0, 0.205);
+}
+
+@media screen and (max-width:1000px) {
+    .profile, #error {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .profile,#error {
+        flex-direction: column;
+        width: 95%;
+    }
+    .profile .img {
+        width: 100%;
+    }
+    #search-input {
+        width: 90%;
+    }
+    .profile .info {
+        align-items: center;
+        width: 100%;
+        padding: 10px;
+    }
+
+}
+@media screen and (max-width: 500px) {
+    #hachtage {
+        flex-direction: column;
+        justify-content: center;
+    }
+    #hachtage .result2 {
+        margin: 10px;
+    }
+
+}

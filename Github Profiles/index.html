@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Profiles</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="conan.jpg" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <h1>Search on Github User</h1>
+        <input type="text" id="search-input" placeholder="Search on Github User">
+        <div class="profile">
+            <div class="img">
+                <img src="" alt="" id="img-profile">
+            </div>
+            <div class="info">
+                <h1 id="User-name"></h1>
+                <p id="bio"></p>
+                <ul class="statics">
+                    <li>
+                        <p class="result" id="follower"></p>
+                        <p>follower</p>
+                    </li>
+                    <li>
+                        <p class="result" id="following"></p>
+                        <p>following</p>
+                    </li>
+                    <li>
+                        <p class="result" id="repos"></p>
+                        <p>repos</p>
+                    </li>
+                </ul>
+                <div id="hachtage"></div>
+            </div>
+        </div>
+        <div id="error">
+            <h1>No Profile With This Name</h1>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
