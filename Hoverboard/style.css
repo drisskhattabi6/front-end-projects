@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgb(21, 22, 22);
+    max-width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px #fff;
+    overflow: hidden;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.elt {
+    background-color: #1d1d1d;
+    width: 20px;
+    height: 20px;
+    box-shadow: 0 0 2px rgb(0, 0, 0);
+    margin: 2px;
+    cursor: pointer;
+    transition: all 2s ease;
+}
+
+.elt:hover {
+    transition-duration: 0s;
+}
