@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #3a3a3a;
+    position: relative;
+}
+
+header {
+    height: 35vh;
+    background-image: url('images/pattern-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px;
+}
+
+header h1 {
+    color: #fff;
+    padding: 10px 0 20px;
+    text-align: center;
+}
+
+header .form {
+    display: flex;
+    width: 40vw;
+}
+
+header .form input{
+    padding: 10px 15px;
+    width: 90%;
+    border: 0;
+    border-radius: 5px 0 0 5px;
+    outline: 0;
+    font-size: 20px;
+}
+header .form button{
+    padding: 5px 8px;
+    width: 10%;
+    background-color: #212121;
+    border: 0;
+    border-radius: 0 5px 5px 0;
+    outline: 0;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+header .form button:hover{
+    background-color: #424242;
+}
+
+.result {
+    display: flex;
+    width: 75vw;
+    min-width: 500px;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px;
+    position: absolute;
+    top: 25vh;
+    left: 12.5%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 2px #24232351,
+                -5px -5px 5px 2px #24232351;
+    z-index: 2;
+}
+
+.result div {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+}
+.result div:not(.result div:last-child) {
+    border-right: 1px solid #6e6e6e;
+}
+
+.result div p{
+    font-size: 16px;
+    color: #3a3a3a;
+    padding: 10px 0;
+}
+.result div h1{
+    font-size: 22px;
+}
+
+#map {
+    width: 100%;
+    height: 65vh;
+    z-index: 1;
+}
+
+/***************************************/
+
+@media screen and (max-width: 1000px) {
+    .result div h1{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 850px) {
+    .result {
+        padding: 5px;
+    }
+    .result div {
+        padding: 5px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .result div h1{
+        font-size: 16px;
+    }
+    .result div p{
+        font-size: 14px;
+        padding: 5px 0;
+    }
+}
+@media screen and (max-width: 600px) {
+    header .form {
+        width: 100%;
+    }
+    .result {
+        flex-direction: column;
+        text-align: center;
+        width: 250px;
+        min-width: auto;
+        left: calc(50% - 125px);
+        top: 20vh;
+    }
+    .result div {
+        width: 100%;
+        border-right: 0 !important;
+    }
+    header {
+        padding: 10px;
+    }
+    header h1 {
+        padding: 5px 0 10px;
+    }
+    header .form input{
+        font-size: 18px;
+        width: 85%;
+    }
+    header .form button{
+        width: 15%;
+    }
+}
