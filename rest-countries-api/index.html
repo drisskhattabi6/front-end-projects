@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rest countries api</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>where in the world?</h1>
+            <button id="mode" class="btn">
+                <i class="fa-regular fa-moon"></i>
+                <p>Dark Mode</p>
+            </button>
+        </div>
+    </header>
+    <main>
+        <div class="detailes">
+            <div class="container">
+                <button class="btn" id="back">
+                    <i class="fa-solid fa-arrow-left-long"></i>
+                    back
+                </button>
+                <div class="content">
+                    <div class="flag">
+                        <img src="" alt="" id="country-flag">
+                    </div>
+                    <div class="detail">
+                        <h1 id="country-name"></h1>
+                        <div class="info">
+                            <ul>
+                                <li>
+                                    <p class="label">native name:</p>
+                                    <p id="native-name" class="result"></p>
+                                </li>
+                                <li>
+                                    <p class="label">population:</p>
+                                    <p id="population" class="result"></p>
+                                </li>
+                                <li>
+                                    <p class="label">region:</p>
+                                    <p id="region" class="result"></p>
+                                </li>
+                                <li>
+                                    <p class="label">sub region:</p>
+                                    <p id="sub-region" class="result"></p>
+                                </li>
+                                <li>
+                                    <p class="label">capital:</p>
+                                    <p id="capital" class="result"></p>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <p class="label">top level domain:</p>
+                                    <p id="level-domain" class="result"></p>
+                                </li>
+                                <li>
+                                    <p class="label">currencies:</p>
+                                    <p id="currencies" class="result"></p>
+                                </li>
+                                <li>
+                                    <p class="label">languages:</p>
+                                    <p id="languages" class="result"></p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="border-country">
+                            <p class="label">border countries:</p>
+                            <div class="result" id="border-coun">
+                                <!-- <p class="result2">Algeria</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="countries">
+            <div class="container">
+                <div class="header">
+                    <div class="search-box">
+                        <button id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        <input type="text" id="search-input" placeholder="search for country">
+                    </div>
+                    <div class="continent">
+                        <label for="continents">Filter by Region</label>
+                        <select id="continents">
+                            <option value="all" selected>All</option>
+                            <option value="africa">Africa</option>
+                            <option value="america">America</option>
+                            <option value="asia">Asia</option>
+                            <option value="europe">Europe</option>
+                            <option value="oceania">Oceania</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <!--
+                    <div class="box">
+                        <div class="flag">
+                            <img src="https://flagcdn.com/ma.svg" alt="">
+                        </div>
+                        <div class="info">
+                            <h1>Morocco</h1>
+                            <ul>
+                                <li>
+                                    <p class="label">population:</p>
+                                    <p class="result">12345678</p>
+                                </li>
+                                <li>
+                                    <p class="label">region:</p>
+                                    <p class="result">africa</p>
+                                </li>
+                                <li>
+                                    <p class="label">capital:</p>
+                                    <p class="result">rabat</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    -->
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
