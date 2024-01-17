@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imgs/favicon-32x32.png">
+    <title>short your Link</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <img src="imgs/logo.svg" alt="logo" class="logo">
+                <ul>
+                    <li><a href="#">features</a></li>
+                    <li><a href="#">pricing</a></li>
+                    <li><a href="#">resources</a></li>
+                </ul>
+                <ul>
+                    <li><button id="login-btn" class="btn whitebtn">login</button></li>
+                    <li><button id="sign-up-btn" class="btn greenbtn">sign up</button></li>
+                </ul>
+                <div class="nav2">
+                    <i class="fa-solid fa-bars" id="resp-bar"></i>
+                    <div id="resp-nav">
+                        <ul>
+                            <li><a href="#">features</a></li>
+                            <li><a href="#">pricing</a></li>
+                            <li><a href="#">resources</a></li>
+                        </ul>
+                        <hr>
+                        <ul>
+                            <li><button id="login-btn" class="btn whitebtn">login</button></li>
+                            <li><button id="sign-up-btn" class="btn greenbtn">sign up</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="description">
+                <div class="text">
+                    <h1>More than just shorter link</h1>
+                    <p>build your brand's recognition ang get detailed insights on how your links are performing</p>
+                    <button id="get-started-btn" class="greenbtn btn">get started</button>
+                </div>
+                <img src="imgs/illustration-working.svg" alt="illustration-working" class="bg">
+            </div>
+
+        </header>
+        <div class="short-place">
+            <div class="link">
+                <input type="url" id="link-input" placeholder="your link...">
+                <button id="link-btn" class="btn greenbtn">shorten it</button>
+            </div>
+            
+            <div class="short-links" id="short_links">
+                <!--
+                <div class="shorten-link">
+                    <div class="link-source">www.google.com/rjhbrekuzerf</div>
+                    <div class="link-short">
+                        <p>www.google.com/</p>
+                        <button class="btn greenbtn">copy</button>
+                    </div>
+                </div>
+                -->
+            </div>
+        </div>
+        <div class="adc-stat">
+            <div class="title">
+                <h1>advanced statistics</h1>
+                <p>track how you links are performing accross the web with our advanced statistics dashboard</p>
+            </div>
+            <div class="advs">
+                <div class="adv">
+                    <img src="imgs/icon-brand-recognition.svg" alt="">
+                    <h2>Brand recognition</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas beatae laborum aut, cumque deserunt mollitia sint in itaque impedit officiis, soluta ut illo dignissimos</p>
+                </div>
+                <div class="adv">
+                    <img src="imgs/icon-detailed-records.svg" alt="">
+                    <h2>detailed records</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas beatae laborum aut, cumque deserunt mollitia sint in itaque impedit officiis, soluta ut illo dignissimos</p>
+                </div>
+                <div class="adv">
+                    <img src="imgs/icon-fully-customizable.svg" alt="">
+                    <h2>Fully customizable</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas beatae laborum aut, cumque deserunt mollitia sint in itaque impedit officiis, soluta ut illo dignissimos</p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="pub">
+                <h1>Boost your links today</h1>
+                <button id="get-started-btn2" class="greenbtn btn">get started</button>
+            </div>
+            <div class="footer">
+                <img src="imgs/logo.svg" alt="logo">
+                <div class="feature">
+                    <h2>Feature</h2>
+                    <ul>
+                        <li><a href="#">Link Shortening</a></li>
+                        <li><a href="#">Branded Links</a></li>
+                        <li><a href="#">Analytics</a></li>
+                    </ul>
+                </div>
+                <div class="recources">
+                    <h2>Recources</h2>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Developers</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+                <div class="company">
+                    <h2>Company</h2>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Our team</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="media">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+            </div>
+        </footer>
+        <div class="error">
+            <div class="content">
+                <div class="header">
+                    <h2 id="error-title">error-title</h2>
+                    <i class="fa-solid fa-xmark" id="cancel-btn"></i>
+                </div>
+                <div id="text-error">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, repellendus eos sed voluptatem illo vel minus. Dolores inventore sint beatae est, culpa accusantium minus corrupti doloremque, pariatur qui veritatis asperiores!
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
