@@ -5,7 +5,7 @@
 | # | Projects Code Source | Used Technique | Live Demo | Type |
 |:---:|:--------------------------:|:-----------:|:-----------:|:-----------:|
 | 01 | [Crypto Currency Market](https://github.com/drisskhattabi6/front-end-projects/tree/main/crypto%20currency%20market) | HTML + CSS + JS + API |[Live Demo](https://drisskhattabi6.github.io/front-end-projects/crypto%20currency%20market/) | inspired |
-| 02 | [Rest Countries API](https://github.com/drisskhattabi6/front-end-projects/tree/main/rest-countries-api) | HTML + CSS + JS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/rest-countries-api/) | challenge |
+| 02 | [Rest Countries API](https://github.com/drisskhattabi6/front-end-projects/tree/main/rest-countries-api) | HTML + CSS + JS + API | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/rest-countries-api/) | challenge |
 | 03 | [Url Shortening](https://github.com/drisskhattabi6/front-end-projects/tree/main/url-shortening) | HTML + CSS + JS + API | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/url-shortening/) | challenge |
 | 04 | [Memory Game](https://github.com/drisskhattabi6/front-end-projects/tree/main/Memory%20Game) | HTML + CSS + JS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/Memory%20Game/) | my Project |
 | 04 | [Arabic Keyboard](https://github.com/drisskhattabi6/front-end-projects/tree/main/arabic%20keyboard) | HTML + CSS + JS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/arabic%20keyboard/) | my Project |
