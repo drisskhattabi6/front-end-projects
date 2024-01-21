@@ -22,3 +22,4 @@
 | 17 | [Social Media Dashboard](https://github.com/drisskhattabi6/front-end-projects/tree/main/social-media-dashboard) | HTML + CSS + JS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/social-media-dashboard/) | challenge |
 | 18 | [404 not found page](https://github.com/drisskhattabi6/front-end-projects/tree/main/404-not-found) | HTML + CSS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/404-not-found/) | challenge |
 | 19 | [Sunnyside Agency LP](https://github.com/drisskhattabi6/front-end-projects/tree/main/sunnyside-agency-lp) | HTML + CSS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/sunnyside-agency-lp/) | challenge |
+| 20 | [Ping Coming Soon Page](https://github.com/drisskhattabi6/front-end-projects/tree/main/ping-coming-soon-page) | HTML + CSS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/ping-coming-soon-page/) | challenge |
