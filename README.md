@@ -24,4 +24,5 @@
 | 19 | [Fylo Dark Theme LP](https://github.com/drisskhattabi6/front-end-projects/tree/main/fylo-dark-theme-lp) | HTML + CSS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/fylo-dark-theme-lp/) | challenge |
 | 20 | [News Homepage](https://github.com/drisskhattabi6/front-end-projects/tree/main/news-homepage) | HTML + CSS + JS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/news-homepage/) | challenge |
 | 21 | [404 not found page](https://github.com/drisskhattabi6/front-end-projects/tree/main/404-not-found) | HTML + CSS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/404-not-found/) | challenge |
-| 20 | [Ping Coming Soon Page](https://github.com/drisskhattabi6/front-end-projects/tree/main/ping-coming-soon-page) | HTML + CSS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/ping-coming-soon-page/) | challenge |
+| 22 | [Coming Soon Page](https://github.com/drisskhattabi6/front-end-projects/tree/main/ping-coming-soon-page) | HTML + CSS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/ping-coming-soon-page/) | challenge |
+| 23 | [Price Component](https://github.com/drisskhattabi6/front-end-projects/tree/main/price-component) | HTML + CSS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/price-component/) | challenge |
