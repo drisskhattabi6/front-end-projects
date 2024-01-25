@@ -1,4 +1,4 @@
-# This is the main repository for all of my front-end projects.
+# This is the main repository contains some of my front-end projects.
 
 - visite my portfolio website [FROM HERE](https://drisskhattabi6.github.io/id-kh).
 
@@ -23,6 +23,7 @@
 | 18 | [Sunnyside Agency LP](https://github.com/drisskhattabi6/front-end-projects/tree/main/sunnyside-agency-lp) | HTML + CSS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/sunnyside-agency-lp/) | challenge |
 | 19 | [Fylo Dark Theme LP](https://github.com/drisskhattabi6/front-end-projects/tree/main/fylo-dark-theme-lp) | HTML + CSS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/fylo-dark-theme-lp/) | challenge |
 | 20 | [News Homepage](https://github.com/drisskhattabi6/front-end-projects/tree/main/news-homepage) | HTML + CSS + JS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/news-homepage/) | challenge |
-| 21 | [404 not found page](https://github.com/drisskhattabi6/front-end-projects/tree/main/404-not-found) | HTML + CSS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/404-not-found/) | challenge |
-| 22 | [Coming Soon Page](https://github.com/drisskhattabi6/front-end-projects/tree/main/ping-coming-soon-page) | HTML + CSS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/ping-coming-soon-page/) | challenge |
-| 23 | [Price Component](https://github.com/drisskhattabi6/front-end-projects/tree/main/price-component) | HTML + CSS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/price-component/) | challenge |
+| 21 | [Huddle LP 1](https://github.com/drisskhattabi6/front-end-projects/tree/main/huddle-lp1) | HTML + CSS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/huddle-lp1/) | challenge |
+| 22 | [404 not found page](https://github.com/drisskhattabi6/front-end-projects/tree/main/404-not-found) | HTML + CSS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/404-not-found/) | challenge |
+| 23 | [Coming Soon Page](https://github.com/drisskhattabi6/front-end-projects/tree/main/ping-coming-soon-page) | HTML + CSS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/ping-coming-soon-page/) | challenge |
+| 24 | [Price Component](https://github.com/drisskhattabi6/front-end-projects/tree/main/price-component) | HTML + CSS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/price-component/) | challenge |
