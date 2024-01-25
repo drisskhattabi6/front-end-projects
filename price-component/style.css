@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(204, 43%, 93%);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    margin: 20px;
+}
+
+.content .div1 {
+    background-color: #fff;
+    padding: 40px;
+    width: 100%;
+    border-radius:  10px 10px 0 0;
+}
+
+.content .div1 h2{
+    color: hsl(179, 62%, 43%);
+    padding-bottom: 15px;
+}
+
+.content .div1 .special1{
+    color: hsl(71, 73%, 54%);
+    padding-top: 10px 0 15px;
+    font-weight: 600;
+}
+
+.content .div1 p:last-of-type{
+    color: hsl(218, 22%, 67%);
+    padding: 15px 0 0;
+    line-height: 25px;
+}
+
+.content .div2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.div2 .div3 {
+    width: 50%;
+    height: 100%;
+    padding: 40px;
+    background-color: hsl(179, 62%, 43%);
+    border-radius: 0 0 0 10px;
+}
+.div2 .div4 {
+    width: 50%;
+    padding: 40px;
+    background-color: hsl(179, 48%, 56%);
+    border-radius: 0 0 10px 0;
+}
+
+.div3 h3, .div4 h3 {
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+.div3 .special2 {
+    color: hsl(204, 43%, 93%);
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    padding: 5px 0 10px;
+}
+.div3 .special2 span{
+    color: #fff;
+    font-size: 35px;
+    padding-right: 10px;
+}
+
+.div3 p:last-of-type {
+    color: #fff;
+    font-size: 15px;
+}
+
+.div3 button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: 0;
+    border-radius: 5px;
+    background-color: hsl(71, 73%, 54%);
+    color: #fff;
+    font-size: 16px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.101),
+                -2px 0px 2px 2px rgba(0, 0, 0, 0.101);
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+.div3 button:hover {
+    background-color: hsl(71, 79%, 40%);
+}
+
+.div4 p {
+    color: hsl(204, 43%, 93%);
+    line-height: 22.5px;
+}
+
+/**********************************/
+
+@media screen and (max-width: 750px) {
+    .content {
+        width: 550px;
+    }
+    .content .div1,.div2 .div3, .div2 .div4 {
+        padding: 30px;
+    }
+    .div4 p {
+        line-height: 19px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .content {
+        width: 90%;
+    }
+    .content .div2 {
+        flex-direction: column;
+    }
+    .div2 .div3 {
+        width: 100%;
+        border-radius: 0 0 0 0;
+    }
+    .div2 .div4 {
+        width: 100%;
+        border-radius: 0 0 10px 10px;
+    }
+    .div4 p {
+        line-height: 19px;
+    }
+}
