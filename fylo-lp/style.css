@@ -1,0 +1,524 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    padding: 0 15px;
+    margin: 0 auto;
+    width: 90vw;
+}
+
+/**************************************/
+
+header {
+    padding: 30px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    width: 100px;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+header ul li {
+    padding: 5px;
+    margin: 0 10px;
+}
+
+header ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all .4s ease;
+}
+
+header ul li a:hover {
+    color: rgb(112, 112, 112);
+}
+
+/******************************************************/
+.section1 {
+    padding: 30px;
+}
+
+.section1 .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section1 .container .description {
+    width: 50%;
+}
+
+.section1 .container .description h1{
+    font-size: 2.5rem;
+    margin: 20px 0;
+    color: hsl(243, 87%, 12%);
+    line-height: 55px;
+}
+
+.section1 .container .description p{
+    font-size: 18px;
+    margin: 20px 0;
+    color: hsl(243, 87%, 12%);
+}
+
+.section1 .container .description .form{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 90%;
+}
+.section1 .container .description .form form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-right: 10px;
+}
+.section1 .container .description .form form input{
+    padding: 8px 10px;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    outline: none;
+}
+.section1 .container .description .form button{
+    padding: 10px;
+    font-size: 18px;
+    color: #fff;
+    background-color: hsl(224, 93%, 58%);
+    border-radius: 5px;
+    border: 0;
+    width: 40%;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+.section1 .container .description .form button:hover{
+    background-color: hsl(224, 95%, 66%);
+}
+#error1, #error2{
+    font-size: 14px;
+    color: red;
+    margin: 0;
+    margin-top: 5px;
+}
+ 
+.section1 .container img {
+    width: 50%;
+}
+
+/*****************************************/
+
+.curvy-section {
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: -5px;
+}
+
+.curvy-section img {
+    width: 100%;
+}
+
+/*************************************************/
+
+.section2 {
+    padding: 30px;
+    padding-bottom: 100px;
+    background-color: hsl(240, 75%, 98%);
+}
+
+.section2 .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section2 .container .description {
+    width: 58%;
+}
+
+.section2 .container .description h1{
+    font-size: 2.5rem;
+    margin: 20px 0;
+    color: hsl(243, 87%, 12%);
+    line-height: 55px;
+}
+
+.section2 .container .description p{
+    font-size: 18px;
+    margin: 20px 0;
+    color: hsl(243, 87%, 12%);
+    width: 80%;
+}
+
+.section2 .container .description a{
+    font-size: 18px;
+    margin: 20px 0 40px;
+    color: hsl(145, 68%, 37%);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    transition: all .4s ease;
+}
+
+.section2 .container .description a:hover {
+    color: hsl(145, 73%, 58%);
+}
+
+.section2 .container .description a img{
+    width: 30px;
+    margin-left: 5px;
+}
+
+.section2 .container .quote {
+    width: 350px;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1),
+                -5px -5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.section2 .container .quote img {
+    width: 20px;
+    margin-bottom: 10px;
+}
+.section2 .container .quote p{
+    width: 100%;
+    margin: 10px 0;
+    line-height: 25px;
+}
+
+.section2 .container .quote .user{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.section2 .container .quote .user img{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.section2 .container .quote .user .info{
+    display: flex;
+    flex-direction: column;
+}
+
+.section2 .container .quote .user .info p{
+    font-size: 14px;
+    margin: 0;
+}
+
+.section2 .container img {
+    width: 40%;
+}
+
+/***********************************************/
+
+.section3 {
+    padding: 50px 100px;
+    background-color: hsl(238, 22%, 44%);
+    color: #fff;
+}
+
+.section3 .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section3 .container .description{
+    width: 50%;
+}
+.section3 .container .description h1{
+    font-size: 2rem;
+    padding: 20px 0;
+}
+.section3 .container .description p{
+    font-size: 1rem;
+    padding: 10px 0;
+    color: hsl(0, 0%, 75%);
+    width: 80%;
+    line-height: 25px;
+}
+.section3 .container .form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.section3 .container .form form input{
+    padding: 8px 10px;
+    width: 80%;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+}
+
+#error2 {
+    color: #fff;
+}
+
+.section3 .container .form button{
+    padding: 10px;
+    font-size: 18px;
+    color: #fff;
+    background-color: hsl(224, 93%, 58%);
+    border-radius: 5px;
+    border: 0;
+    width: 40%;
+    cursor: pointer;
+    transition: all .4s ease;
+    margin-top: 15px;
+}
+
+.section3 .container .form button:hover {
+    background-color: hsl(224, 95%, 66%);
+}
+
+/*****************************************************/
+
+footer {
+    padding: 60px 30px;
+    background-color: hsl(243, 87%, 12%);
+    color: #fff;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .container img:nth-child(1) {
+    width: 150px;
+    filter: contrast(0);
+}
+
+footer .container .content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 40px;
+}
+
+footer .container .content ul{
+    list-style: none;
+}
+
+footer .container .content .info li{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+}
+
+footer .container .content .info li img{
+    width: 25px;
+    margin-right: 10px;
+}
+
+footer .container .content .about li,
+ footer .container .content .contact li{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-bottom: 15px;
+    cursor: pointer;
+    transition: all .4s ease;
+} 
+
+footer .container .content .about li:hover ,
+ footer .container .content .contact li:hover {
+    text-decoration: underline;
+    color: rgb(205, 205, 205);
+} 
+
+.content .media {
+    display: flex;
+}
+
+.content .media i {
+    font-size: 25px;
+    color: #fff;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+.content .media i:hover {
+    color: rgb(205, 205, 205);
+}
+
+/**********************************************************/
+
+@media screen and (max-width: 850px) {
+    .section1, .section2 {
+        padding: 20px;
+    }
+
+    .section2 {
+        padding-bottom: 40px;
+    }
+
+    .section2 .container .description h1, .section1 .container .description h1{
+        font-size: 2rem;
+        line-height: 40px;
+    }
+
+    .section3 {
+        padding: 20px 30px;
+    }
+
+    .section2 .container .quote {
+        width: 300px;
+        padding: 12px;
+        border-radius: 10px;
+    }
+    .section2 .container .quote p{
+        width: 100%;
+        margin: 7px 0;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+    .section2 .container .quote .user img{
+        width: 35px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    header ul li {
+        margin: 0 5px;
+    }
+    header ul li a {
+        font-size: 16px;
+    }
+
+    .section1 .container, .section2 .container {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .section2 {
+        padding-bottom: 40px;
+    }
+
+    .section2 .container .description,
+     .section1 .container .description{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .section2 .container img,
+     .section1 .container img{
+        width: 90%;
+    }
+
+    .section1 .container .description .form,
+    .section1 .container .description .form .form {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section3 .container {
+        flex-direction: column;
+    }
+
+    .section3 .container .description,
+     .section3 .container .form {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .section3 .container .description p {
+        text-align: center;
+    }
+
+    .section3 .container .form form,
+     .section1 .container .description .form form {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section3 .container .form form input,
+     .section1 .container .description .form form input{
+        width: 100%;
+    }
+
+    .section3 .container .form button,
+     .section1 .container .description .form button {
+        width: 100%;
+    }
+
+    #error1, #error2{
+        text-align: center;
+    }
+    .section1 .container .description .form button {
+        margin-top: 10px;
+    }
+
+    footer .container .content {
+        flex-direction: column;
+    }
+
+    footer .container .content ul {
+        margin: 20px 0;
+    }
+
+    footer .container .content .media {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .container {
+        padding: 0 10px;
+        width: 100%;
+    }
+    header {
+        padding: 10px;
+    }
+    header .logo {
+        width: 60px;
+    }
+    
+    header ul li a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 400;
+        transition: all .4s ease;
+    }
+}
