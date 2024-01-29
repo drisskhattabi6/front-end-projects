@@ -29,3 +29,4 @@
 | 24 | [404 not found page](https://github.com/drisskhattabi6/front-end-projects/tree/main/404-not-found) | HTML + CSS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/404-not-found/) | challenge |
 | 25 | [Coming Soon Page](https://github.com/drisskhattabi6/front-end-projects/tree/main/ping-coming-soon-page) | HTML + CSS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/ping-coming-soon-page/) | challenge |
 | 26 | [Price Component](https://github.com/drisskhattabi6/front-end-projects/tree/main/price-component) | HTML + CSS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/price-component/) | challenge |
+| 27 | [3 Column Card Component](https://github.com/drisskhattabi6/front-end-projects/tree/main/3-col-card-component) | HTML + CSS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/3-col-card-component/) | challenge |
