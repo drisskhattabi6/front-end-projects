@@ -30,4 +30,5 @@
 | 25 | [Coming Soon Page](https://github.com/drisskhattabi6/front-end-projects/tree/main/ping-coming-soon-page) | HTML + CSS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/ping-coming-soon-page/) | challenge |
 | 26 | [Price Component](https://github.com/drisskhattabi6/front-end-projects/tree/main/price-component) | HTML + CSS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/price-component/) | challenge |
 | 27 | [3 Column Card Component](https://github.com/drisskhattabi6/front-end-projects/tree/main/3-col-card-component) | HTML + CSS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/3-col-card-component/) | challenge |
-| 27 | [4 Card Feature](https://github.com/drisskhattabi6/front-end-projects/tree/main/4-card-feature) | HTML + CSS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/4-card-feature/) | challenge |
+| 28 | [4 Card Feature](https://github.com/drisskhattabi6/front-end-projects/tree/main/4-card-feature) | HTML + CSS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/4-card-feature/) | challenge |
+| 28 | [Order Summary Component](https://github.com/drisskhattabi6/front-end-projects/tree/main/order-summary-component) | HTML + CSS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/order-summary-component/) | challenge |
