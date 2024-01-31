@@ -1,0 +1,117 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(216, 12%, 8%);
+    overflow: auto;
+}
+
+.content,.result {
+    width: 400px;
+    background-color: hsl(213, 19%, 18%);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    color: hsl(0, 0%, 100%);
+    margin: 10px;
+}
+
+.content .img {
+    width: 50px;
+    height: 50px;
+    background-color: hsl(210, 16%, 20%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.content h1 , .result h1{
+    font-size: 35px;
+    padding: 30px 0 15px;
+    width: 100%;
+}
+
+.content p , .result p{
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    line-height: 23px;
+    width: 100%;
+}
+
+.content .rating {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px 0; 
+}
+
+.rating .rate {
+    width: 50px;
+    height: 50px;
+    background-color: hsl(210, 16%, 20%);
+    color: hsl(217, 12%, 63%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all .4s ease;
+    cursor: pointer;
+}
+
+.rating .rate:hover {
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(0, 0%, 100%);
+}
+
+.content button {
+    width: 100%;
+    padding: 10px 0;
+    border: 0;
+    border-radius: 25px;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    font-size: 18px;
+    letter-spacing: 2px;
+    transition: all .4s ease;
+}
+.content button:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+/*********************************/
+
+.result {
+    display: none;
+    text-align: center;
+}
+
+.result img {
+    margin: 10px auto;
+    width: 170px;
+}
+
+.result .spe {
+    color: hsl(25, 97%, 53%);
+    margin-top: 20px;
+    padding: 5px;
+    background-color: hsl(210, 16%, 20%);
+    border-radius: 25px;
+}

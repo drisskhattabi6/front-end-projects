@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>interactive rating</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); </style>
+</head>
+<body>
+    <main>
+        <div class="content">
+            <div class="img">
+                <img src="images/icon-star.svg" alt="icon star">
+            </div>
+            <h1>How did we do?</h1>
+            <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+            <div class="rating">
+                <div class="rate" data-rate="1">1</div>
+                <div class="rate" data-rate="2">2</div>
+                <div class="rate" data-rate="3">3</div>
+                <div class="rate" data-rate="4">4</div>
+                <div class="rate" data-rate="5">5</div>
+            </div>
+            <button id="submit">SUBMIT</button>
+        </div>
+        <div class="result">
+            <img src="images/illustration-thank-you.svg" alt="thank you illustration">
+            <p class="spe">You selected 5 out of <span id="user-rating">*</span></p>
+            <h1>Thank you!</h1>
+            <p>We appreciate you taking the time to give a rating.
+                If you ever need more support, don't hesitate to get in touch!
+            </p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
