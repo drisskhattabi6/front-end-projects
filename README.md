@@ -35,3 +35,5 @@
 | 30 | [4 Card Feature](https://github.com/drisskhattabi6/front-end-projects/tree/main/4-card-feature) | HTML + CSS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/4-card-feature/) | challenge |
 | 31 | [Order Summary Component](https://github.com/drisskhattabi6/front-end-projects/tree/main/order-summary-component) | HTML + CSS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/order-summary-component/) | challenge |
 | 32 | [Stats Preview Card](https://github.com/drisskhattabi6/front-end-projects/tree/main/stats-preview-card) | HTML + CSS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/stats-preview-card/) | challenge |
+| 33 | [Profile Card Component](https://github.com/drisskhattabi6/front-end-projects/tree/main/profile-card-component) | HTML + CSS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/profile-card-component/) | challenge |
+
