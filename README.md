@@ -1,6 +1,8 @@
-# This is the main repository contains some of my front-end projects.
+# Front-End Projects :
 
-- visite my portfolio website [FROM HERE](https://drisskhattabi6.github.io/id-kh).
+## This is the main repository contains some of my front-end projects.
+
+- visite my portfolio website **[FROM HERE](https://drisskhattabi6.github.io/id-kh)**.
 
 | # | Projects Code Source | Technologies Used | Live Demo | Type |
 |:---:|:--------------------------:|:-----------:|:-----------:|:-----------:|
