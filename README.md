@@ -4,6 +4,11 @@
 
 - visite my portfolio website **[FROM HERE](https://drisskhattabi6.github.io/id-kh)**.
 
+  ![Front-end projects img](img1.png)
+
+
+  **This is all my projects with Technologies Used and Live Demo :**
+  
 | # | Projects Code Source | Technologies Used | Live Demo | Type |
 |:---:|:--------------------------:|:-----------:|:-----------:|:-----------:|
 | 01 | [Crypto Currency Market](https://github.com/drisskhattabi6/front-end-projects/tree/main/crypto%20currency%20market) | HTML + CSS + JS + API |[Live Demo](https://drisskhattabi6.github.io/front-end-projects/crypto%20currency%20market/) | inspired |
