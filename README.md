@@ -23,6 +23,7 @@
 | 10 | [StopWatch App](https://github.com/drisskhattabi6/front-end-projects/tree/main/StopWatch%20App) | HTML + CSS + JS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/StopWatch%20App/) | inspired |
 | 11 | [Movie App](https://github.com/drisskhattabi6/front-end-projects/tree/main/Movie%20App) | HTML + CSS + JS + API | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/Movie%20App/) | inspired |
 | 12 | [Notes App](https://github.com/drisskhattabi6/front-end-projects/tree/main/Notes%20App) | HTML + CSS + JS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/Notes%20App/) |  my Project  |
+| -- | [To-Do List App](https://github.com/drisskhattabi6/front-end-projects/tree/main/To-Do%20List%20App) | HTML + CSS + JS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/To-Do%20List%20App/) | my Project |
 | 13 | [Password Generator](https://github.com/drisskhattabi6/front-end-projects/tree/main/Password%20Generator) | HTML + CSS + JS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/Password%20Generator/) | inspired |
 | 14 | [Hoverboard](https://github.com/drisskhattabi6/front-end-projects/tree/main/Hoverboard) | HTML + CSS + JS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/Hoverboard/) | inspired |
 | 15 | [Color Generator](https://github.com/drisskhattabi6/front-end-projects/tree/main/Color%20Generator) | HTML + CSS + JS | [Live Demo](https://drisskhattabi6.github.io/front-end-projects/Color%20Generator/) | inspired |
