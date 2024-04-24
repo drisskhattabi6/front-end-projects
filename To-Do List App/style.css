@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1.1px;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(64, 63, 63);
+}
+
+.container {
+    position: relative;
+    top: 20vh;
+}
+
+.input {
+    width: 50%;
+    border: 2px solid rgb(11, 168, 241);
+    border-radius: 7px;
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.input input{
+    width: 80%;
+    padding: 5px 10px;
+    margin: 10px;
+    background: none;
+    border: 0;
+    outline: 0;
+    border-bottom: 3px solid #fff;
+    color: rgb(0, 149, 255);
+    font-size: 22px;
+}
+
+.input button{
+    width: 70px;
+    height: 60px;
+    padding: 5px 15px;
+    margin-left: 10px;
+    background: rgb(211, 209, 209);
+    border: 0;
+    border-radius: 7px;
+    cursor: pointer;
+    outline: 0;
+    color: rgb(0, 149, 255);
+    font-size: 25px;
+    font-weight: 700;
+    transition: all .4s ease;
+}
+
+.input button:hover{
+    background: rgb(0, 0, 0);
+    color: rgb(250, 253, 255);
+}
+
+#list {
+    margin: 0 auto;
+    width: 50%;
+    list-style: none;
+    color: rgb(11, 168, 241);
+}
+
+#list li {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    border: 2px solid rgb(206, 241, 11);
+    border-radius: 7px;
+    padding: 5px 10px;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+    transition: all .4s linear;
+    cursor: pointer;
+}
+
+#list li:hover {
+    background-color: rgb(67, 11, 119);
+    
+}
+
+#list li p {
+    margin: 0 10px;
+}
+
+.del{
+    font-size: 35px;
+    padding: 5px;
+    margin: 0 10px;
+    align-items: center;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.del:hover {
+    color: #fff;
+}
+
+.line-through {
+    text-decoration: line-through;
+    color: #fff;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.delete {
+    transform: scale(0);
+}
